@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #00FF00;
+    color:white;
+    background-image: url("arbole.png");
+  }
+  
+  body {
+    background-image: url("arboles.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Mantiene la imagen en su lugar */
+  }
+  header {
+    background-color: #00FF00;
+    color: whitw;
+    padding: 20px;
+    text-align:center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  #quiz-container {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar visibilidad */
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .opcion {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    transition: background 0.3s;
+  }
+  
+  .opcion:hover {
+    background-color: lightblue;
+  }
+  
+  .opcion.seleccionada {
+    background-color: yellow !important;
+  }
+  
+  .correcta {
+    background-color: green !important;
+    color: white !important;
+  }
+  
+  .incorrecta {
+    background-color: red !important;
+    color: white !important;
+  }
+  
+  #verificar, #nuevaPregunta {
+    background-color: yellow;
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #verificar:hover, #nuevaPregunta:hover {
+    background-color: orange;
+  }
+  
+  .eco-consejos {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2e7d32; /* Verde oscuro */
+    margin: 20px auto;
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .eco-consejos p {
+    margin: 20px 0;
+    padding: 10px;
+    background: #c8e6c9;
+    border-left: 8px solid #2e7d32;
+    border-radius: 5px;
+  }
+  
+  .eco-consejos span {
+    color: #1b5e20;
+    font-size: 26px;
+    text-decoration: underline;
+  }
